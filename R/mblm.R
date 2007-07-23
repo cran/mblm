@@ -79,10 +79,15 @@ res$model=data.frame(y,x);
 
 res$assign=c(0,1);
 
-res$effects=lm(formula)$effects;
-res$qr=lm(formula)$qr;
-res$effects[2]=sqrt(sum((res$fitted-mean(res$fitted))^2));
+  if (missing(dataframe)) {
+    res$effects = lm(formula)$effects;
+    res$qr = lm(formula)$qr;
+  } else {
+    res$effects = lm(formula, dataframe)$effects;
+    res$qr = lm(formula, dataframe)$qr;
+  }
 
+res$effects[2]=sqrt(sum((res$fitted-mean(res$fitted))^2));
 res$xlevels=list();
 
 names(res$model)=term;

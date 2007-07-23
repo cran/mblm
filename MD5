@@ -1,0 +1,8 @@
+2170096a5aeed5f3189acddb893ae07d *DESCRIPTION
+9fdfeb11f7ddba6f3aab9aaa6b1ac5dd *NAMESPACE
+4e5efb4cfeb01cbe7bd614991562a10b *R/confint.mblm.R
+9f0a43774c64b9e7dfcf4e92a587ba1c *R/mblm.R
+11e597a349509800ccf455ecefc21b49 *R/summary.mblm.R
+227255d4154a630a2050414e8ea6f191 *man/confint.mblm.Rd
+1b4d7835d82b5ffd877ced674c311553 *man/mblm.Rd
+78572c77adad03d637da348bc16cfcf6 *man/summary.mblm.Rd

@@ -55,7 +55,7 @@ Ass. 63, 324, 1379-1389.
 Siegel, A.F. (1982). Robust Regression Using Repeated Medians. Biometrika, 69, 1, 242-244.
 
 }
-\author{ Lukasz Komsta }
+\author{ Lukasz Komsta, some fixes by Sven Garbade }
 \note{ 
 
 This function should have compatibility with all 'lm' methods, but it is not guaranteed that they
