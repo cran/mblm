@@ -8,7 +8,7 @@
 
 }
 \usage{
-confint.mblm(object, parm, level = 0.95, ...)
+\method{confint}{mblm}(object, parm, level = 0.95, ...)
 }
 \arguments{
   \item{object}{ a fitted model object }

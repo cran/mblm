@@ -5,7 +5,7 @@
   'summary' method for class 'mblm'
 }
 \usage{
-summary.mblm(object, ...)
+\method{summary}{mblm}(object, ...)
 }
 \arguments{
   \item{object}{ an object of class 'mblm', usually, a result of a call to 'mblm'.}
